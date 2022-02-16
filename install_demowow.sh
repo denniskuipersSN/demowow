@@ -43,8 +43,8 @@ sudo /home/ec2-user/install_wetty.sh "$1"
 wget -O demowow.zip https://github.com/denniskuipersSN/demowow/releases/download/v1.6.4/demowow-1.6.4.1.zip 
 unzip demowow.zip
 rm -f demowow.zip
-mv demowow-1.6.4.1/* .
-rm -rf demowow-1.6.4.1
+mv demowow-1.6.4/* .
+rm -rf demowow-1.6.4
 
 #Install Jenkins
 sudo /home/ec2-user/git/install_jenkins.sh
