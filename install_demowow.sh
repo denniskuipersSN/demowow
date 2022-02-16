@@ -47,7 +47,7 @@ mv demowow-1.6.4/* .
 rm -rf demowow-1.6.4
 
 #Install Jenkins
-sudo /home/ec2-user/git/install_jenkins.sh
+sudo /home/ec2-user/git/jenkins/install_jenkins.sh
 
 #Setup Crontab Entries to keep disk clean
 (sudo crontab -l 2>/dev/null; echo "*30 * * * * /home/ec2-user/clear_logs.sh") | sudo crontab -
