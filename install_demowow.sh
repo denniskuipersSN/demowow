@@ -40,7 +40,7 @@ sudo yum --enablerepo=epel install ncdu -y
 sudo /home/ec2-user/install_wetty.sh "$1"
 
 #Get latest Demowow Image
-wget -O demowow.zip https://github.com/denniskuipersSN/demowow/releases/download/v1.6.4/demowow-1.6.4.zip 
+wget -O demowow.zip https://github.com/denniskuipersSN/demowow/releases/download/1.6.4/demowow-1.6.4.zip 
 unzip demowow.zip
 rm -f demowow.zip
 mv demowow-1.6.4/* .
